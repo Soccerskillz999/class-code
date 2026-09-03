@@ -7,7 +7,7 @@ running science experiments. You'll build tiny modules that communicate cleanly 
 encapsulation. When you're done, you'll be able to refuel or change your power source mid-mission
 without touching a single line of mothership code! 🚀
 
-> ## ⭐ Start here: do `worksheet.md` first
+> ## Start here: do `worksheet.md` first
 >
 > Before you write any code, complete **`worksheet.md`** (15 points, about
 > fifteen minutes). It is a design-and-reasoning warm-up, not a coding exercise,
@@ -29,6 +29,12 @@ without touching a single line of mothership code! 🚀
 > section that covers it instead.
 >
 > The worksheet is submitted to Gradescope as a `.md`, separately from your code.
+
+# AI Rung: Tier 1
+
+AI as explainer
+You may use UNC's LearnWithAI system to help you with your work to explain syntax and semantics, walk through worked examples, answer conceptual questions, and critique your code by pointing out bugs and suggesting improvements is allowed. LLMs outside of LearnWithAI should not be used.  
+
 
 # How the Classes Work Together
 
