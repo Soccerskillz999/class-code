@@ -3,6 +3,11 @@ package edu.unc.comp210.a02mothership;
 public abstract class FuelGenerator extends AModule {
     private int fuel;
 
+    public FuelGenerator(int fuel){
+        super("fuelGenerator");
+        this.fuel=fuel;
+    }
+
     @Override
     public void statusReport(String moduleStatus, boolean isSuccessful) {
         super.statusReport(moduleStatus, isSuccessful);

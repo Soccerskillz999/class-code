@@ -4,6 +4,14 @@ public class ThrusterModule extends AModule {
     private int fuel;
     private boolean lastFired;
 
+    public ThrusterModule(int fuel, boolean lastFired){
+
+        super("thrusterModule");
+        this.fuel= 100;
+        this.lastFired= false;
+
+    }
+
     @Override
     public void statusReport(String moduleStatus, boolean isSuccessful) {
         super.statusReport(moduleStatus, isSuccessful);
